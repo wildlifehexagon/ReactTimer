@@ -4,6 +4,7 @@
   "description": "React boilerplate",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack --config webpack.config.js",
     "test": "karma start",
     "start": "node server.js"
   },
